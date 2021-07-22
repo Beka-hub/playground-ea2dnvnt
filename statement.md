@@ -4,16 +4,22 @@ This Java template lets you get started quickly with a simple one-page playgroun
 
 ```java runnable
 // { autofold
+import java.util.Scanner;
+
 public class Main {
 
-public static void main(String[] args) {
-// }
+    public static int user = 0;
 
-String message = "Hello World!";
-System.out.println(message);
+    public static void main(String[] args) {
+// }
+    Scanner scan = new Scanner (System.in);
+    user = scan.nextInt();
+
+        String message = "Hello World!";
+        System.out.println(message);
 
 //{ autofold
-}
+    }
 
 }
 //}
